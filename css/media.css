@@ -1,5 +1,16 @@
 @media only screen and (min-width: 600px) {
-  .main {
+  main {
     background-color: aqua;
+  }
+}
+@media only screen and (min-width: 768px) {
+  main {
+    border: dashed 2px red;
+    background-image: url(../images/img3.jpeg);
+  }
+}
+@media only screen and (min-width: 992px) {
+  main {
+    background-image: url(../images/img2.jpeg);
   }
 }
