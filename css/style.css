@@ -1,74 +1,68 @@
+@import url(./media.css);
+main {
+  border: 2px solid blue;
 
-main{
-    border: 2px solid blue;
-    
-    position: relative;
-    top: 50px;
-    left: 100px;
-    width: 1200px;
-    height: 600px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 1200px;
+  height: 600px;
 }
-div{
-    
-    
-    position: absolute;
-    top: 150px;
-    left: 100px;
-    
+div {
+  position: absolute;
+  top: 150px;
+  left: 100px;
 }
-.img1{
-border: 3px solid blue;
-position: absolute;
-top: 270px;
-z-index: 1;
-filter: grayscale(1);
-transform: rotate(40deg);
-
-
+.img1 {
+  border: 3px solid blue;
+  position: absolute;
+  top: 270px;
+  z-index: 1;
+  filter: grayscale(1);
+  transform: rotate(40deg);
 }
-.img2{
-    border: 3px solid blue;
-    position: absolute;
-    left: 250px;
-    z-index: 2;
-    transform: rotate(-20deg);
-    filter: grayscale(1);
+.img2 {
+  border: 3px solid blue;
+  position: absolute;
+  left: 250px;
+  z-index: 2;
+  transform: rotate(-20deg);
+  filter: grayscale(1);
 }
-.img3{
-    border: 3px solid blue;
-    position: absolute;
-    top:270px ;
-    left: 450px;
-    z-index: 1;
-    filter: grayscale(1);
-    transform: rotate(40deg);
+.img3 {
+  border: 3px solid blue;
+  position: absolute;
+  top: 270px;
+  left: 450px;
+  z-index: 1;
+  filter: grayscale(1);
+  transform: rotate(40deg);
 }
-.img4{
-    border: 3px solid blue;
-    position: absolute;
-    left: 650px;
-    z-index: 2;
-    transform: rotate(-20deg);
-    filter: grayscale(1);
-     
+.img4 {
+  border: 3px solid blue;
+  position: absolute;
+  left: 650px;
+  z-index: 2;
+  transform: rotate(-20deg);
+  filter: grayscale(1);
 }
-.img1:hover{
-filter: grayscale(0);
-transform: rotate(0deg);
-z-index: 3;
+.img1:hover {
+  filter: grayscale(0);
+  transform: rotate(0deg);
+  z-index: 3;
 }
-.img2:hover:hover{
-    filter: grayscale(0);
-    transform: rotate(0deg);
-    z-index: 3;
-    }
-.img3:hover{
-    filter: grayscale(0);
-    transform: rotate(0deg);
-    z-index: 3;
-} 
-.img4:hover{
-    filter: grayscale(0);
-    transform: rotate(0deg);
-    z-index: 3;
-    }
+.img2:hover:hover {
+  filter: grayscale(0);
+  transform: rotate(0deg);
+  z-index: 3;
+}
+.img3:hover {
+  filter: grayscale(0);
+  transform: rotate(0deg);
+  z-index: 3;
+}
+.img4:hover {
+  filter: grayscale(0);
+  transform: rotate(0deg);
+  z-index: 3;
+}
