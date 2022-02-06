@@ -6,11 +6,12 @@
 @media only screen and (min-width: 768px) {
   main {
     border: dashed 2px red;
-    background-image: url(../images/img3.jpeg);
+    /* background-image: url(../images/img3.jpeg); */
   }
 }
 @media only screen and (min-width: 992px) {
   main {
-    background-image: url(../images/img2.jpeg);
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
   }
 }
